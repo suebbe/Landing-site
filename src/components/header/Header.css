@@ -1,0 +1,64 @@
+/*Header container below this point*/
+
+.header-container {
+  height: 52px;
+  opacity: .95;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 400;
+}
+
+/*Main top-Logo below this point*/
+
+.logo {
+  background-image: url("Flexibla-kontoret-logo.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 240px;
+  -webkit-animation: slide-in 2s; /* Safari 4+ */
+  -moz-animation:    slide-in 2s; /* Fx 5+ */
+  -o-animation:      slide-in 2s; /* Opera 12+ */
+  animation:         slide-in 2s; /* IE 10+, Fx 29+ */
+
+}
+
+/*Logo slide-in amimation below this point*/
+
+.slide-in {
+  -webkit-animation: slide-in 2.5s; /* Safari 4+ */
+  -moz-animation:    slide-in 2.5s; /* Fx 5+ */
+  -o-animation:      slide-in 2.5s; /* Opera 12+ */
+  animation:         slide-in 2.5s; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes slide-in {
+  0%   { margin-left: -155px; }
+  100% { margin-left: 0px; }
+}
+@-moz-keyframes slide-in {
+  0%   { margin-left: -155px; }
+  100% { margin-left: 0px; }
+}
+@-o-keyframes slide-in {
+  0%   { margin-left: -155px; }
+  100% { margin-left: 0px; }
+}
+@keyframes slide-in {
+  0%   { margin-left: -155px; }
+  100% { margin-left: 0px; }
+}
+
+
+/*Login button below this point*/
+
+.login a{
+  border-radius: 50px;
+  margin-top: -57px;
+}
+
+.login a:hover {
+  color: rgb(97, 110, 125);
+}

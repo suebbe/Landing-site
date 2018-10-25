@@ -1,0 +1,134 @@
+/*Main-container below this point. Added padding to push down main page when using
+sticky header*/
+
+.main-container {
+  padding-top: 100px;
+  background-color: RGB(50, 63, 76);
+  padding-bottom: 100px;
+}
+
+/*Image carousel below this point*/
+
+.carousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  max-height: 400px;;
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-item {
+    min-height: 300px;
+  }
+}
+
+.d-block {
+  height: 100%;
+  min-height: 200px;
+}
+
+
+.carousel-caption {
+  max-height: 100px;
+  opacity: .7;
+}
+
+.carousel-text {
+  font-size: 1em;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none;
+}
+
+/*Card container below this point*/
+
+.card-wrapper {
+  background-color: RGB(50, 63, 76);
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.card-group {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+
+/*Card globals below this point*/
+
+.btn {
+  border-radius: 50px;
+}
+
+.card {
+  border-color: none;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-body {
+  max-height: 400px;
+  background-color: rgb(97, 110, 125, 20%);
+  border-color: none;
+}
+
+/*Broschure card properties below this point*/
+
+.devices {
+  min-height: 300px;
+  max-height: 700px;
+  max-width: 370px;
+}
+
+/*Interest card properties below this point*/
+
+.support {
+  height: 440px;
+  max-width: 370px;
+}
+
+/*Youtube-video container below this point*/
+
+.video-container {
+  background: RGB(50, 63, 76);
+  max-height: 600px;
+}
+
+/*Properties that makes youtube-iFrame responsive below this point*/
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 40%;
+  max-width: 800px;
+  max-height: 600px;
+  min-width: 250px;
+  min-height: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+
+@media screen and (min-width: 1900px){
+  .resp-container {
+    margin-bottom: -300px;
+  }
+}
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 300px;
+  height: 100%;
+  max-height: 500px;
+  border: 0;
+}
