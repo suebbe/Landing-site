@@ -47,7 +47,7 @@ class Main extends Component {
         </div>
         <div className="card-wrapper mt-5 pt-5 pb-2">
           <div className="card-group">
-            <div className="card devices w-100 mb-3 z-depth-2 rounded-top rounded-bottom">
+            <div className="card devices w-100 mb-3 z-depth-4 rounded-top rounded-bottom">
               <img className="card-img-top pt-2 rounded-top" src={Devices} alt="Card image cap"/>
               <div className="card-body rounded-bottom">
                 <h5 className="card-title">Spara tid och pengar</h5>
@@ -59,21 +59,20 @@ class Main extends Component {
                 <a href="https://content-eshop.dahl.se/wcsstore/Dahl%20B2B/Vara_erbjudanden/pdf/Flexibla_Kontoret.pdf" target="_blank" class="btn bg-flexibla-green text-white">Läs broschyren</a>
               </div>
             </div>
-            <div className="card support rounded w-100 mb-3 z-depth-2">
+            <div className="card support rounded w-100 mb-3 z-depth-4">
               <img className="card-img-top rounded-top" src="https://c1.staticflickr.com/3/2909/14202199100_c1d8c57e35_b.jpg" alt="Card image cap"/>
-              <div className="card-body">
+              <div className="card-body support-body">
                 <h5 className="card-title">Vill du veta mer?</h5>
                 <p className="card-text">Skicka en intresseanmälan till våra säljare så kontaktar vi dig inom 24 timmar</p>
                 <a href="mailto:support@flexiblakontoret.nu" className="btn bg-flexibla-green text-white">Intresseanmälan</a>
               </div>
             </div>
-
           </div>
         </div>
-        <div className="col s12 center-align pt-4 pb-2 video-container">
-        <div className="resp-container">
-          <iframe className="resp-iframe z-depth-2 " src="https://www.youtube.com/embed/ZIAV16-YEEg" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-        </div>
+        <div className="col s12 center-align pt-4 pb-1 video-container">
+          <div className="resp-container">
+            <iframe className="resp-iframe z-depth-2 " src="https://www.youtube.com/embed/ZIAV16-YEEg" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+          </div>
         </div>
       </div>
     )
